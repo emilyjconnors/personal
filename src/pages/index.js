@@ -3,31 +3,18 @@ import * as React from "react"
 import '../css/shared.css';
 import '../css/index.css';
 import { StaticImage } from "gatsby-plugin-image"
-import Computer from '../assets/computer.inline.svg';
-import ContactForm from "./contact";
 import { Link } from "gatsby";
-import {useRef} from "react";
+import { useRef } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { GoMarkGithub } from "react-icons/go";
 import { AiOutlineMobile } from "react-icons/ai";
 import { IoAccessibilityOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
-import resume from '../assets/resume.pdf';
-import headshot from '../assets/emily.jpeg';
-import denver from '../assets/denver.png';
+import Computer from '../assets/computer.inline.svg';
 import norwaylights from '../assets/norway-lights.webm';
-import loscabos from '../assets/los-cabos.png';
-import saltlake from '../assets/salt-lake.png';
-import saltlakemobile from '../assets/salt-lake-mobile.png';
-import roseburg from '../assets/roseburg.jpg';
-import oakland from '../assets/oakland.jpg';
-import alabama from '../assets/alabama.jpg';
-import queenstown from '../assets/queenstown.jpg';
-import traversecity from '../assets/traverse-city.jpg';
-import goldenruledogtraining from '../assets/goldenruledogtraining.png';
 import hoverimage from '../assets/hoverimage.jpg';
 import hoverimageblurred from '../assets/hoverimageblurred.png';
-
+import ContactForm from "./contact";
 import { CSSTransition } from 'react-transition-group';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -172,14 +159,14 @@ const IndexPage = () => {
 
                     <div className="buttons">
                         <Link to="#work" theme="profesional">View Portfolio</Link>
-                        <a href={resume} target="_blank" rel="noreferrer">Download Resume</a>
+                        <a href="../assets/resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
                     </div>
 
                     <hr/>
 
                     <div className="bio-box">
                         <div className="frame">
-                            <img src={headshot} alt="Emily Connors"/>
+                            <StaticImage src="../assets/emily.jpeg" alt="Emily Connors" width={230} height={306}/>
                         </div>
                         <span className="name">Emily Connors</span>
                         <span className="title">Website Developer</span>
@@ -216,7 +203,7 @@ const IndexPage = () => {
                             <p><a href="http://www.simpleviewinc.com" target="_blank">See more about Simpleview</a></p>
                         </div>
                         <div className="project denver">
-                            <img className="image" src={denver} alt="Denver" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/denver.png" alt="Visit Denver" style={{width:"100%"}}/>
                         </div>
                         <div className="project norway item">
                             <video autoPlay muted loop width="100%">
@@ -225,10 +212,10 @@ const IndexPage = () => {
                             </video>
                         </div>
                         <div className="project roseburg">
-                            <img className="image" src={roseburg} alt="Roseburg" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/roseburg.jpg" alt="Roseburg" style={{width:"100%"}}/>
                         </div>
                         <div className="project loscabos">
-                            <img className="image" src={loscabos} alt="Los Cabos" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/los-cabos.png" alt="Los Cabos" style={{width:"100%"}}/>
                         </div>
                         <div className="skills">
                             <h5>Compentencies</h5>
@@ -246,25 +233,25 @@ const IndexPage = () => {
                             </dl>
                         </div>
                         <div className="project saltlake">
-                            <img className="image" src={saltlake} alt="Salt Lake" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/salt-lake.png" alt="Salt Lake City" style={{width:"100%"}}/>
                         </div>
                         <div className="project saltlakemobile">
-                            <img className="image" src={saltlakemobile} alt="Salt Lake" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/salt-lake-mobile.png" alt="Salt Lake City" style={{width:"100%"}}/>
                         </div>
                         <div className="content-awards">
                             <p>Many of the websites I have built have won awards in their respective industries and in website technology (including w3 Awards and Hermes Creative Awards). To find out more, <a href = "mailto: abc@example.com">email me.</a></p>
                         </div>
                         <div className="project oakland">
-                            <img className="image" src={oakland} alt="Oakland" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/oakland.jpg" alt="Oakland" style={{width:"100%"}}/>
                         </div>
                         <div className="project alabama">
-                            <img className="image" src={alabama} alt="Alabama" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/alabama.jpg" alt="Alabama" style={{width:"100%"}}/>
                         </div>
                         <div className="project queenstown">
-                            <img className="image" src={queenstown} alt="Queenstown" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/queenstown.jpg" alt="Visit Queenstown" style={{width:"100%"}}/>
                         </div>
                         <div className="project traversecity">
-                            <img className="image" src={traversecity} alt="Traverse City" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/traverse-city.jpg" alt="Traverse City" style={{width:"100%"}}/>
                         </div>
                     </div>
                 </div>
@@ -272,7 +259,7 @@ const IndexPage = () => {
                     <h4>Freelance</h4>
                     <div className="freelance">
                         <p>On the side I help small businesses, family and friends get small website projects up and running. I work with clients to determine their webiste needs and find the best solutions to achieving them. Often this includes custom design work, server and domain setup, content creation, video and photo editing, training, etc.</p>
-                        <img className="image" src={goldenruledogtraining} alt="Golden Rule Dog Training" />
+                        <StaticImage src="../assets/goldenruledogtraining.png" alt="Golden Rule Dog Training"/>
                         <p className="quote"><q>Emily Connors took what seemed like a daunting task (completely re-making my business website) and walked me through it with ease and confidence.  I have no technical skills.  Emily has not only superior skills but has the added and highly necessary skills to explain to laypeople (like me) what is needed to reach their goals.  She makes technology seem unintimidating!  I love my website and have been getting a lot of business from it.  Five stars!</q> - Elain Berg GoldenRuleDogTraining.com</p>
                     </div>
                 </div>
@@ -295,7 +282,7 @@ const IndexPage = () => {
             <footer>
                 <div className="logo">
                     <Link to="/">
-                        <StaticImage src="../assets/ec-white.png" alt="Emily Connors Logo" layout="fixed" width={80} height={80} />
+                        <StaticImage src="../assets/ec-white.png" alt="Emily Connors Logo" width={80} height={80} layout="fixed"/>
                     </Link>
                 </div>
             </footer>

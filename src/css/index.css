@@ -687,7 +687,7 @@
     padding-bottom: 50px;
 }
 
-#work .freelance img {
+#work .freelance .gatsby-image-wrapper {
     display: block;
     width: 60%;
     height: auto;
@@ -720,7 +720,7 @@
         margin-bottom: 50px;
     }
     
-    #work .freelance img {
+    #work .freelance .gatsby-image-wrapper {
         display: block;
         width: 50%;
         height: auto;
