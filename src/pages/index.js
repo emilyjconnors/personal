@@ -12,8 +12,8 @@ import { IoAccessibilityOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
 import Computer from '../assets/computer.inline.svg';
 import norwaylights from '../assets/norway-lights.webm';
-import hoverimage from '../assets/hoverimage.jpg';
-import hoverimageblurred from '../assets/hoverimageblurred.png';
+import hoverimage from '../assets/hoverimage.webp';
+import hoverimageblurred from '../assets/hoverimageblurred.webp';
 import ContactForm from "./contact";
 import { CSSTransition } from 'react-transition-group';
 import { gsap } from "gsap";
@@ -121,7 +121,7 @@ const IndexPage = () => {
                         <div className="wrapper">
                             <div className="logo">
                                 <Link to="/">
-                                    <StaticImage src="../assets/ec-white.png" alt="Emily Connors Logo" layout="fixed" width={80} height={80} loading="eager" />
+                                    <StaticImage src="../assets/ec-white.webp" alt="Emily Connors Logo" layout="fixed" width={80} height={80} loading="eager" />
                                 </Link>
                             </div>
                             <button onClick={handleToggle}>
@@ -166,7 +166,7 @@ const IndexPage = () => {
 
                     <div className="bio-box">
                         <div className="frame">
-                            <StaticImage src="../assets/emily.jpeg" alt="Emily Connors" width={230} height={306}/>
+                            <StaticImage src="../assets/emily.webp" alt="Emily Connors" width={230} height={306}/>
                         </div>
                         <span className="name">Emily Connors</span>
                         <span className="title">Website Developer</span>
@@ -203,7 +203,7 @@ const IndexPage = () => {
                             <p><a href="http://www.simpleviewinc.com" target="_blank">See more about Simpleview</a></p>
                         </div>
                         <div className="project denver">
-                            <StaticImage src="../assets/denver.png" alt="Visit Denver" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/denver.webp" alt="Visit Denver" style={{width:"100%"}}/>
                         </div>
                         <div className="project norway item">
                             <video autoPlay muted loop width="100%">
@@ -212,10 +212,10 @@ const IndexPage = () => {
                             </video>
                         </div>
                         <div className="project roseburg">
-                            <StaticImage src="../assets/roseburg.jpg" alt="Roseburg" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/roseburg.webp" alt="Roseburg" style={{width:"100%"}}/>
                         </div>
                         <div className="project loscabos">
-                            <StaticImage src="../assets/los-cabos.png" alt="Los Cabos" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/los-cabos.webp" alt="Los Cabos" style={{width:"100%"}}/>
                         </div>
                         <div className="skills">
                             <h5>Compentencies</h5>
@@ -233,25 +233,25 @@ const IndexPage = () => {
                             </dl>
                         </div>
                         <div className="project saltlake">
-                            <StaticImage src="../assets/salt-lake.png" alt="Salt Lake City" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/salt-lake.webp" alt="Salt Lake City" style={{width:"100%"}}/>
                         </div>
                         <div className="project saltlakemobile">
-                            <StaticImage src="../assets/salt-lake-mobile.png" alt="Salt Lake City" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/salt-lake-mobile.webp" alt="Salt Lake City" style={{width:"100%"}}/>
                         </div>
                         <div className="content-awards">
                             <p>Many of the websites I have built have won awards in their respective industries and in website technology (including w3 Awards and Hermes Creative Awards). To find out more, <a href = "mailto: abc@example.com">email me.</a></p>
                         </div>
                         <div className="project oakland">
-                            <StaticImage src="../assets/oakland.jpg" alt="Oakland" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/oakland.webp" alt="Oakland" style={{width:"100%"}}/>
                         </div>
                         <div className="project alabama">
-                            <StaticImage src="../assets/alabama.jpg" alt="Alabama" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/alabama.webp" alt="Alabama" style={{width:"100%"}}/>
                         </div>
                         <div className="project queenstown">
-                            <StaticImage src="../assets/queenstown.jpg" alt="Visit Queenstown" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/queenstown.webp" alt="Visit Queenstown" style={{width:"100%"}}/>
                         </div>
                         <div className="project traversecity">
-                            <StaticImage src="../assets/traverse-city.jpg" alt="Traverse City" style={{width:"100%"}}/>
+                            <StaticImage src="../assets/traverse-city.webp" alt="Traverse City" style={{width:"100%"}}/>
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@ const IndexPage = () => {
                     <h4>Freelance</h4>
                     <div className="freelance">
                         <p>On the side I help small businesses, family and friends get small website projects up and running. I work with clients to determine their webiste needs and find the best solutions to achieving them. Often this includes custom design work, server and domain setup, content creation, video and photo editing, training, etc.</p>
-                        <StaticImage src="../assets/goldenruledogtraining.png" alt="Golden Rule Dog Training"/>
+                        <StaticImage src="../assets/goldenruledogtraining.webp" alt="Golden Rule Dog Training"/>
                         <p className="quote"><q>Emily Connors took what seemed like a daunting task (completely re-making my business website) and walked me through it with ease and confidence.  I have no technical skills.  Emily has not only superior skills but has the added and highly necessary skills to explain to laypeople (like me) what is needed to reach their goals.  She makes technology seem unintimidating!  I love my website and have been getting a lot of business from it.  Five stars!</q> - Elain Berg GoldenRuleDogTraining.com</p>
                     </div>
                 </div>

@@ -175,7 +175,7 @@
     width: 85%;
     height: 0;
     padding-bottom: 100vh;
-    background-image: url('../assets/keyboard.jpg');
+    background-image: url('../assets/keyboard.webp');
     -webkit-box-shadow: inset 150px -150px 85px -30px var(--white);
     -moz-box-shadow: inset 150px -150px 85px -30px var(--white);
     box-shadow: inset 150px -150px 85px -30px var(--white);
