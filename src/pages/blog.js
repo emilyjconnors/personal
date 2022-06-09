@@ -16,7 +16,7 @@ const BlogPage = () => {
                 <div className="wrapper">
                     <div className="logo">
                         <Link to="/">
-                            <StaticImage src="../assets/ec-white.png" alt="Emily Connors Logo" layout="fixed" width={80} height={80} loading="eager" />
+                            <StaticImage src="../assets/ec-white.webp" alt="Emily Connors Logo" layout="fixed" width={80} height={80} loading="eager" />
                         </Link>
                     </div>
                     <div className="social">
@@ -42,7 +42,7 @@ const BlogPage = () => {
             <footer>
                 <div className="logo">
                     <Link to="/">
-                        <StaticImage src="../assets/ec-white.png" alt="Emily Connors Logo" layout="fixed" width={80} height={80} />
+                        <StaticImage src="../assets/ec-white.webp" alt="Emily Connors Logo" layout="fixed" width={80} height={80} />
                     </Link>
                 </div>
             </footer>

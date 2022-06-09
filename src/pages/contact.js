@@ -20,7 +20,7 @@ export default class ContactForm extends React.Component {
     }
     render() {
         return (
-            <form onSubmit={this.handleSubmit} action="mailto:contact@yourdomain.com" method="POST">
+            <form onSubmit={this.handleSubmit} encType="multipart/form-data" action="mailto:contact@yourdomain.com" method="POST">
                 <input
                     type="text"
                     name="name"
