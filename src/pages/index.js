@@ -143,8 +143,8 @@ const IndexPage = () => {
                                 </div>
                                 <div className="social">
                                     <ul>
-                                        <li><a href="/" target="_blank"><FaLinkedin role="button" aria-label="LinkedIn"/></a></li>
-                                        <li><a href="/" target="_blank"><GoMarkGithub role="button" aria-label="Github"/></a></li>
+                                        <li><a href="https://www.linkedin.com/in/emilyjconnors/" target="_blank"><FaLinkedin role="button" aria-label="LinkedIn"/></a></li>
+                                        <li><a href="https://github.com/emilyjconnors" target="_blank"><GoMarkGithub role="button" aria-label="Github"/></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@ const IndexPage = () => {
                         <span className="title">Website Developer</span>
                         <dl>
                             <dt>Phone</dt><dd><a href="tel: 303-217-3874">303-217-3874</a></dd>
-                            <dt>Email</dt><dd><a href = "mailto: abc@example.com">hello@emilyconnors.com</a></dd>
+                            <dt>Email</dt><dd><a href = "mailto: hello@emilyconnors.com">hello@emilyconnors.com</a></dd>
                             <dt>Github</dt><dd><a href = "https://github.com/emilyjconnors" target="_blank">@emilyjconnors</a></dd>
                         </dl>
                     </div>
@@ -241,7 +241,7 @@ const IndexPage = () => {
                             <StaticImage src="../assets/salt-lake-mobile.webp" alt="Salt Lake City" style={{width:"100%"}}/>
                         </div>
                         <div className="content-awards">
-                            <p>Many of the websites I have built have won awards in their respective industries and in website technology (including w3 Awards and Hermes Creative Awards). To find out more, <a href = "mailto: abc@example.com">email me.</a></p>
+                            <p>Many of the websites I have built have won awards in their respective industries and in website technology (including w3 Awards and Hermes Creative Awards). To find out more, <a href = "mailto: hello@emilyconnors.com">email me.</a></p>
                         </div>
                         <div className="project oakland">
                             <StaticImage src="../assets/oakland.webp" alt="Oakland" style={{width:"100%"}}/>

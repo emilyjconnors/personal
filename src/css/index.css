@@ -796,6 +796,7 @@
 }
 
 #contact form {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -810,17 +811,17 @@
     background-color: var(--white);
 }
 
-#contact form input[name="name"],
-#contact form input[name="email"] {
+#contact form input[name="user_name"],
+#contact form input[name="user_email"] {
     width: calc(50% - 40px);
     padding: 5px 15px;
 }
 
-#contact form input[name="name"] {
+#contact form input[name="user_name"] {
     margin-right: 10px;
 }
 
-#contact form input[name="email"] {
+#contact form input[name="user_email"] {
     margin-left: 10px;
 }
 
@@ -829,7 +830,7 @@
     padding: 5px 15px;
 }
 
-#contact form button {
+#contact form input[type="submit"] {
     width: 100%;
     padding: 5px 15px;
     font-size: var(--body-font);
@@ -839,4 +840,36 @@
     font-family: inherit;
     background-color: var(--accent-purple);
     color: var(--white);
+    cursor: pointer;
+}
+
+#contact form input[type="submit"]:active,
+#contact form input[type="submit"]:focus,
+#contact form input[type="submit"]:target,
+#contact form input[type="submit"]:visited,
+#contact form input[type="submit"]:focus-visible {
+    opacity: 0.8;
+}
+
+#contact form .success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 30px;
+}
+
+#contact form .success button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: var(--accent-purple);
+    font-weight: 700;
+    padding: 5px;
 }

@@ -21,8 +21,8 @@ const BlogPage = () => {
                     </div>
                     <div className="social">
                         <ul>
-                            <li><a href="/" target="_blank"><FaLinkedin role="button" aria-label="LinkedIn"/></a></li>
-                            <li><a href="/" target="_blank"><GoMarkGithub role="button" aria-label="Github"/></a></li>
+                            <li><a href="https://www.linkedin.com/in/emilyjconnors/" target="_blank"><FaLinkedin role="button" aria-label="LinkedIn"/></a></li>
+                            <li><a href="https://github.com/emilyjconnors" target="_blank"><GoMarkGithub role="button" aria-label="Github"/></a></li>
                         </ul>
                     </div>
                     
