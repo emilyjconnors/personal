@@ -13,8 +13,10 @@ import { IoAccessibilityOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
 import Computer from '../assets/computer.inline.svg';
 import norwaylights from '../assets/norway-lights.webm';
+import norwaylightsalt from '../assets/norway-lights.mp4';
 import hoverimage from '../assets/hoverimage.webp';
 import hoverimageblurred from '../assets/hoverimageblurred.webp';
+import resume from '../assets/resume.pdf';
 import ContactForm from "./contact";
 import { CSSTransition } from 'react-transition-group';
 import { gsap } from "gsap";
@@ -161,7 +163,7 @@ const IndexPage = () => {
 
                     <div className="buttons">
                         <Link to="#work" theme="profesional">View Portfolio</Link>
-                        <a href="../assets/resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+                        <a href={resume} target="_blank" rel="noreferrer">Download Resume</a>
                     </div>
 
                     <hr/>
@@ -210,6 +212,7 @@ const IndexPage = () => {
                         <div className="project norway item">
                             <video autoPlay muted loop width="100%">
                                 <source src={norwaylights} type="video/webm"/>
+                                <source src={norwaylightsalt} type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
                         </div>
