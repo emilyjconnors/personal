@@ -263,9 +263,9 @@ const IndexPage = () => {
                 <div className="content-wrapper">
                     <h4>Freelance</h4>
                     <div className="freelance">
-                        <p>On the side I help small businesses, family and friends get small website projects up and running. I work with clients to determine their webiste needs and find the best solutions to achieving them. Often this includes custom design work, server and domain setup, content creation, video and photo editing, training, etc.</p>
+                        <p>On the side, I help small businesses, family and friends get small website projects up and running. I work with clients to determine their webiste needs and find the best solutions to meet them. Often this includes custom design work, server and domain setup, content creation, video and photo editing and training.</p>
                         <StaticImage src="../assets/goldenruledogtraining.webp" alt="Golden Rule Dog Training"/>
-                        <p className="quote"><q>Emily Connors took what seemed like a daunting task (completely re-making my business website) and walked me through it with ease and confidence.  I have no technical skills.  Emily has not only superior skills but has the added and highly necessary skills to explain to laypeople (like me) what is needed to reach their goals.  She makes technology seem unintimidating!  I love my website and have been getting a lot of business from it.  Five stars!</q> - Elain Berg GoldenRuleDogTraining.com</p>
+                        <p className="quote"><q>Emily Connors took what seemed like a daunting task (completely remaking my business website) and walked me through it with ease and confidence.  I have no technical skills.  Emily has not only superior skills but has the added and highly necessary skills to explain to laypeople (like me) what is needed to reach their goals.  She makes technology seem unintimidating!  I love my website and have been getting a lot of business from it.  Five stars!</q> - Elaine Berg, GoldenRuleDogTraining.com</p>
                     </div>
                 </div>
             </section>

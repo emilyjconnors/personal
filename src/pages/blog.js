@@ -32,7 +32,7 @@ const BlogPage = () => {
                 <div className="content-wrapper">
                     <span className="hightlight-title">Coming Back Soon!</span>
 
-                    <p className="intro-text"><b>My Blog is currently undergoing a redesign. Please come back soon to read from a collective of perspectives and personal experiences from people in the handicapped community.  Here, each author has unique insights on a topic -- from having lived it already. And although I'm sure similar content is out there already on the World Wide Web, I hope you find our stories interesting and informative. At the very least, you'll get to know a little about me and my life with Spinal Muscular Atrophy.</b></p>
+                    <p className="intro-text"><b>My Blog is currently undergoing a redesign. Please come back soon to read a collection of perspectives and personal experiences from people in the handicapped community.  Here, each author has unique insights on a topic -- from having lived it already. And although I'm sure similar content is out there already on the World Wide Web, I hope you find our stories interesting and informative. At the very least, you'll get to know a little about me and my life with Spinal Muscular Atrophy.</b></p>
 
                     <div className="buttons">
                         <Link to="/">Return Home</Link>
