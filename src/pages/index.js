@@ -11,7 +11,8 @@ import { GoMarkGithub } from "react-icons/go";
 import { AiOutlineMobile } from "react-icons/ai";
 import { IoAccessibilityOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
-import Computer from '../assets/computer.inline.svg';
+import ComputerMobile from '../assets/computer-mobile.inline.svg';
+import ComputerDesktop from '../assets/computer-desktop.inline.svg';
 import norwaylights from '../assets/norway-lights.webm';
 import norwaylightsalt from '../assets/norway-lights.mp4';
 import hoverimage from '../assets/hoverimage.webp';
@@ -105,7 +106,8 @@ const IndexPage = () => {
             <Helmet>
                 <html lang="en" />
                 <title>Emily Connors</title>
-                <script src="computersvg.js" type="text/javascript" />
+                <script src="computer-mobile-svg.js" type="text/javascript" />
+                <script src="computer-desktop-svg.js" type="text/javascript" />
                 <script src="threedsrc.js" type="text/javascript" />
             </Helmet>
             <CSSTransition in={inProp} timeout={0}>
@@ -114,7 +116,8 @@ const IndexPage = () => {
                         <div className="inner">
                             <h1>Emily Connors</h1>
                             <h2>Web Developer</h2>
-                            <Computer/>
+                            <ComputerMobile className="mobile"/>
+                            <ComputerDesktop className="desktop"/>
                         </div>
                     </div>
                 )}

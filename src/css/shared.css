@@ -23,15 +23,18 @@ font-family: 'Roboto', sans-serif; 100, 100i, 300, 300i, 400, 400i
 */
 
 :root {
-    --main-body: #2a2a2a;
-    --accent-grey: #4e4e4e;
-    --accent-purple: #52343E;
-    --background: #dbdadc;
-    --overlay: rgb(42 42 42 / 80%);
-    --white: #fefefe;
-    --beige: #d4c9b8;
     --body-font: 16px;
     --accent-font: 60px;
+    --white: #fefefe;
+    --main-body: #2a2a2a;
+    --accent-grey: #4e4e4e;
+    --accent-blue: #395159;
+    --accent-fog: #efefef;
+    --accent-mist: #90a3a7;
+    --accent-sunset: #935430;
+    --accent-shell: #cba688;
+    --overlay: rgb(42 42 42 / 80%);
+
 }
 
 @media screen and (min-width: 40em){

@@ -6,8 +6,8 @@
     display: flex;
     width: 100%;
     height: 100vh;
-    background-color: var(--accent-purple);
-    color: var(--beige);
+    background-color: var(--accent-blue);
+    color: var(--accent-mist);
     z-index: 1;
     transition: height 500ms ease-in-out;
 }
@@ -22,7 +22,11 @@
     width: 100%;
     margin: 15px;
     padding: 50px 15px;
-    border: 1px solid var(--beige);
+    border: 1px solid var(--accent-fog);
+}
+
+.banner .inner svg.desktop {
+    display: none;
 }
 
 @media screen and (min-width: 40em) {
@@ -30,8 +34,21 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
-        padding: 100px 15px;
+        padding: 30px 15px;
+    }
+
+    .banner .inner svg {
+        max-height: 200px;
+    }
+
+    .banner .inner svg.mobile {
+        display: none;
+    }
+
+    .banner .inner svg.desktop {
+        display: block;
     }
 }
 
@@ -359,7 +376,7 @@
 }
 
 #work .content-wrapper-fullwidth {
-    background-color: var(--beige);
+    background-color: var(--accent-shell);
     color: var(--main-body);
     width: 100%;
     margin-bottom: 50px
@@ -590,7 +607,7 @@
         position: relative;
         flex: 1 1 100%;
         overflow: hidden;
-        background-color: var(--background);
+        background-color: var(--accent-fog);
         border-radius: 10px;
         height: 18px;
     }
@@ -604,7 +621,7 @@
         display: inline-flex;
         justify-content: right;
         align-items: center;
-        background-color: var(--accent-purple);
+        background-color: var(--accent-sunset);
         border-radius: 10px;
         text-align: right;
         margin: 2px;
@@ -749,7 +766,7 @@
 
 #contact .content-wrapper-fullwidth-image {
     position: relative;
-    background-color: var(--beige);
+    background-color: var(--accent-shell);
     color: var(--main-body);
     width: 100%;
 }
@@ -838,7 +855,7 @@
     margin-bottom: 30px;
     line-height: 1.6em;
     font-family: inherit;
-    background-color: var(--accent-purple);
+    background-color: var(--accent-blue);
     color: var(--white);
     cursor: pointer;
 }
@@ -869,7 +886,7 @@
     position: absolute;
     right: 10px;
     top: 10px;
-    color: var(--accent-purple);
+    color: var(--accent-blue);
     font-weight: 700;
     padding: 5px;
 }
